@@ -1,4 +1,6 @@
 body {
+    width: 100%;
+    min-height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     background-color: rgb(48, 48, 48);
@@ -6,7 +8,9 @@ body {
     flex-direction: column;
     align-items: center;
     margin: 0px;
+
 }
+
 
 header{
  width: 100%;
@@ -16,11 +20,60 @@ header{
 
 header > h2 {
     color: white;
-    margin: 32px;
+    margin-left: 10%;
+    font-size: 32px;
 }
 
-footer {
+header > ul {
+    margin-left: auto;
+    margin-right: 10%;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
 
+.topcontent {
+    display: flex;
+    width: 45%;
+    margin-top: 72px;
+    margin-bottom: 72px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5%;
+}
+
+.topcontent > .desc {
+    display: flex;
+    flex-direction: column;
+}
+
+.desc > .opt-in {
+    width: 10%;
+}
+
+.information {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.information > .cast {
+    display: flex;
+}
+
+.quote {
+    margin: 100px;
+}
+
+.calltoaction {
+    margin: 100px;
+}
+footer {
+  margin-top: auto;
 }
 
 ul {
