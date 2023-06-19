@@ -36,14 +36,45 @@ header > ul {
     color: white;
     font-size: 24px;
 }
-
-.bandmembers {
+.desc > p {
+    font-size: 24px;
+}
+.members > li > #icon {
     height: 200px;
     width: 200px;
     object-fit: cover;
-    border-width: 20px;
+    border-style: solid;
+    border-width: 10px;
     border-radius: 20px;
     border-color: yellow;
+}
+
+.members > #role {
+    font-size: 22px;
+    margin: 16px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.members > #desc {
+    font-size:18px;
+    text-align: center;
+}
+
+.role {
+    font-weight: bold;
+    text-align: center;
+    font-size: 24px;
+}
+
+.cast {
+}
+
+.cast > .members {
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .topcontent {
     display: flex;
@@ -84,6 +115,7 @@ header > ul {
 .information > .cast {
     display: flex;
 }
+
 
 .quote {
     margin: 100px;
