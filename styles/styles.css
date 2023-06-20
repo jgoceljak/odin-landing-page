@@ -123,6 +123,15 @@ header > ul {
 
 .calltoaction {
     margin: 100px;
+    width: 50%;
+    background-color: yellow;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 50px;
+    padding-bottom: 30px;
+    
 }
 footer {
   margin-top: auto;
